@@ -5,7 +5,7 @@ package com.NovelSoft.LMS;
  */
 public class main {
     public void main(String[] args){
-    //INIT THE MAIN FORM
-    //test
+        //TODO launch app from here
+        //Import look and feel code i wrote
     }
 }
