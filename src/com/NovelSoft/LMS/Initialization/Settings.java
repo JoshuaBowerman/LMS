@@ -10,5 +10,5 @@ package com.NovelSoft.LMS.Initialization;
  * @author joshua
  */
 public class Settings {
-    
+    String DBLoc = "Unimplemented";
 }
