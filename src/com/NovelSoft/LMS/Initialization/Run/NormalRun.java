@@ -12,7 +12,8 @@ package com.NovelSoft.LMS.Initialization.Run;
 public class NormalRun {
 
     static void Begin() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        com.NovelSoft.LMS.Windows.Main mScreen = new com.NovelSoft.LMS.Windows.Main();
+        mScreen.Main();
     }
     
 }
