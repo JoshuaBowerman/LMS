@@ -15,7 +15,9 @@ public class InitRun {
         //This is the beggining of the program
         //Find out if we are first run
          if (com.NovelSoft.LMS.Initialization.Settings.getIsFirstRun()){
-           FirstRun.Begin();  
+           //FirstRun.Begin();
+             //@depricated
+             NormalRun.Begin();
          }else{
            NormalRun.Begin();
          }

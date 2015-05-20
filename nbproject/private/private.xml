@@ -2,14 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/Settings.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Windows/Main.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/Run/FirstRun.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/Run/InitRun.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Database/User.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/Run/NormalRun.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Database/SQLConnection.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

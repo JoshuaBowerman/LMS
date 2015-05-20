@@ -13,7 +13,9 @@ public class NormalRun {
 
     static void Begin() {
         com.NovelSoft.LMS.Windows.Main mScreen = new com.NovelSoft.LMS.Windows.Main();
-        mScreen.Main();
+        mScreen.begin();
+        mScreen.setVisible(true);
+        System.out.println("Got To End");
     }
     
 }
