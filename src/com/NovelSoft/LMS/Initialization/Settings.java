@@ -57,8 +57,16 @@ public class Settings {
 
     }
 
-    public static String getBDLocation() {//Returns the location of the DB server (127.0.0.1) is the location if this machine is the server
+    public static String getDBLocation() {//Returns the location of the DB server (127.0.0.1) is the location if this machine is the server
         String DB = pullFromSettings("DBLocation");
+        return DB;
+    }
+    public static String getDBUser() {//Returns the location of the DB server (127.0.0.1) is the location if this machine is the server
+        String DB = pullFromSettings("DBUser");
+        return DB;
+    }
+    public static String getDBPass() {//Returns the location of the DB server (127.0.0.1) is the location if this machine is the server
+        String DB = pullFromSettings("DBPassword");
         return DB;
     }
     public static void setProgramArgs(String[] Args) {//Returns the location of the DB server (127.0.0.1) is the location if this machine is the server

@@ -778,31 +778,7 @@ public class Main extends javax.swing.JFrame {
 
     private void jList3ValueChanged(javax.swing.event.ListSelectionEvent evt) {//GEN-FIRST:event_jList3ValueChanged
 
-        String sel = jList3.getSelectedValue().toString();
-        String title = sel.split(",")[0];
-        SQLConnection Connect = new SQLConnection("Books");
-        SQLConnection Connect2 = new SQLConnection("Users");
-        ResultSet book = Connect.getResSet("%" + title + "%", "Title");
-        ResultSet users = Connect2.getResSet("%" + title + "%", "Taken");
-        try {
-            book.first();
-            users.first();
-            jTextField6.setText(book.getString("Title"));
-            System.out.println(book.getString("Title"));
-            jTextField7.setText(book.getString("Author"));
-        } catch (SQLException ex) {
-            System.out.println("ERR:" + ex.toString());
-        }
-        try {
-            jTextField9.setText(book.getString("Publisher"));
-        } catch (SQLException ex) {
-            jTextField9.setText(" ");
-        }
-        try {
-            jTextField9.setText(users.getString("Name"));
-        } catch (SQLException ex) {
-            jTextField9.setText(" ");
-        }
+        
 
 
     }//GEN-LAST:event_jList3ValueChanged
