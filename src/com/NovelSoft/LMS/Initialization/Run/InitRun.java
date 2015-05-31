@@ -14,12 +14,15 @@ public class InitRun {
         
         //This is the beggining of the program
         //Find out if we are first run
+       com.NovelSoft.LMS.Initialization.Default s = new com.NovelSoft.LMS.Initialization.Default();
+        s.initSettings();
          if (com.NovelSoft.LMS.Initialization.Settings.getIsFirstRun()){
            //FirstRun.Begin();
              //@depricated
              NormalRun.Begin();
          }else{
            NormalRun.Begin();
+           
          }
     }
 }

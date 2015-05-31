@@ -16,8 +16,17 @@ import java.util.logging.Logger;
 public class Settings {
     public static String[] Arguments = null;
 
-    public static String settingsLocation = "./Settings.conf";//This is so that it is easy to change the path of the settings file.
+    public static String settingsLocation = "./settings.conf";//This is so that it is easy to change the path of the settings file.
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
     //This class will contain the settings that are used to load all preferences
     private static String pullFromSettings(String key) {//This should only be used by inernal methods.
         FileReader sFile = null;
@@ -30,7 +39,7 @@ public class Settings {
             while ((line = sBuff.readLine()) != null) {//go through all the settings until we find it
 
                 if (line.startsWith(key)) {
-                    String[] keyProper = line.split(key + " = ");//split it so that we have the part without the beggining
+                    String[] keyProper = line.split(key + "=");//split it so that we have the part without the beggining
                     System.out.println(keyProper[1]);//Testing
                     return keyProper[1];//this contains the pare after the key
                 }
