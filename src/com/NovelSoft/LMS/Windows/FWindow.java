@@ -107,15 +107,18 @@ public class FWindow extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       com.NovelSoft.LMS.Database.SQLConnection con = new com.NovelSoft.LMS.Database.SQLConnection("User");
-      ResultSet r =  con.getResSet("Uname",jTextField1.getText());
-        try {
-            String x = r.getString(1);
-        } catch (SQLException ex) {
-            Logger.getLogger(FWindow.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        if (jPasswordField1.getText()== x){
-            
+       com.NovelSoft.LMS.Database.FileConn con = new com.NovelSoft.LMS.Database.FileConn("Users");
+     String[] r =  con.Find(jTextField1.getText());
+     String[] f = r[0].split(",");
+      String x = f[1];
+       System.out.println(jPasswordField1.getText());
+        if (jPasswordField1.getText().matches(x)){//They are who they say they are
+            System.out.println("User Authenticated");
+            Main win = new Main();
+            win.main(jTextField1.getText());
+            win.begin();
+            win.setVisible(true);
+            this.setVisible(false);
         }
                 
     }//GEN-LAST:event_jButton1ActionPerformed

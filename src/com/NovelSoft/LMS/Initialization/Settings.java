@@ -17,10 +17,19 @@ public class Settings {
     public static String[] Arguments = null;
 
     public static String settingsLocation = "./settings.conf";//This is so that it is easy to change the path of the settings file.
-
-    
-    
-    
+    //
+    //
+    //
+    //
+    //
+    //This Class is no longer used as preferances are no longer needed
+    //
+    //
+    //
+    //
+    //
+    //
+     
     
     
     
@@ -28,6 +37,7 @@ public class Settings {
     
     
     //This class will contain the settings that are used to load all preferences
+    @Deprecated
     private static String pullFromSettings(String key) {//This should only be used by inernal methods.
         FileReader sFile = null;
         try {
@@ -55,7 +65,7 @@ public class Settings {
         return null;//we are first run
 
     }
-
+    @Deprecated
     public static boolean getIsFirstRun() {//returns whether or not this is the first time the application has been run on this machine
         String FRun = pullFromSettings("FRun");
         if (FRun == "False") {
@@ -70,14 +80,17 @@ public class Settings {
         String DB = pullFromSettings("DBLocation");
         return DB;
     }
+    @Deprecated
     public static String getDBUser() {//Returns the location of the DB server (127.0.0.1) is the location if this machine is the server
         String DB = pullFromSettings("DBUser");
         return DB;
     }
+    @Deprecated
     public static String getDBPass() {//Returns the location of the DB server (127.0.0.1) is the location if this machine is the server
         String DB = pullFromSettings("DBPassword");
         return DB;
     }
+    @Deprecated
     public static void setProgramArgs(String[] Args) {//Returns the location of the DB server (127.0.0.1) is the location if this machine is the server
         Arguments = Args;
     }

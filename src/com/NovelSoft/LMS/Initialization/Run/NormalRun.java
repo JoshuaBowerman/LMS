@@ -11,10 +11,10 @@ package com.NovelSoft.LMS.Initialization.Run;
  */
 public class NormalRun {
 
-    static void Begin() {
-        com.NovelSoft.LMS.Windows.Main mScreen = new com.NovelSoft.LMS.Windows.Main();
-        mScreen.begin();
-        mScreen.setVisible(true);
+   public static void main(String args[]){
+        
+        com.NovelSoft.LMS.Windows.FWindow mScreen = new com.NovelSoft.LMS.Windows.FWindow();
+        mScreen.main(args);
         System.out.println("Got To End");
     }
     

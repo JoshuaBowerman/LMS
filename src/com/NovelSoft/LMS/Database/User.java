@@ -9,8 +9,9 @@ package com.NovelSoft.LMS.Database;
  *
  * @author joshua
  */
+@Deprecated
 public class User {
-    private SQLConnection UserConn = new SQLConnection("Users");
+    private FileConn UserConn = new FileConn("Users");
     public String FName;
     public String LName;
     public String id;

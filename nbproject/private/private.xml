@@ -4,16 +4,15 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/Settings.java</file>
+            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Windows/FileChooser.java</file>
+            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Windows/NewUser.java</file>
             <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Windows/Main.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Windows/Settings.java</file>
+            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Database/FileConn.java</file>
             <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Windows/PasswordProtect.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/DefTemplateUser.sql</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/Default.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/Init.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/DefTemplateResource.sql</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/Run/InitRun.java</file>
+            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Windows/NewBook.java</file>
+            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Database/User.java</file>
             <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Windows/FWindow.java</file>
-            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Database/SQLConnection.java</file>
+            <file>file:/home/joshua/ICSFinal/LMS/src/com/NovelSoft/LMS/Initialization/Run/NormalRun.java</file>
         </group>
     </open-files>
 </project-private>
